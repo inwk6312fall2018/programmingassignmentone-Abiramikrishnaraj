@@ -1,5 +1,6 @@
 
 #Task-2parta
+def task2():
 file=open("running-config.cfg.txt")
 list=[]
 for line in file:
@@ -12,4 +13,4 @@ for line in file:
 		x=line[2].split(".")
 		x[0]=10
 		print(x[0:])
-
+task2()
