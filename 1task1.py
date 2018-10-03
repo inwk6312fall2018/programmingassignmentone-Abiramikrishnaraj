@@ -1,5 +1,6 @@
 
 #Task-1parta
+def task1():
 file=open("running-config.cfg.txt")
 dic={}
 list=[]
@@ -15,4 +16,5 @@ for line in file:
         if (line[0]=="ip address"):
                 list.append(line[1])
 print(list)
+task1()
 
